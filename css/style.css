@@ -84,6 +84,7 @@ a {
     position: relative;
 }
 
+/* LABEL PERCENTUALE DI SCONTO E SOSTENIBILITA' */
 .label {
     font-size: 20px;
     padding: 10px;
@@ -106,6 +107,7 @@ a {
     left: 0;
 }
 
+/* CLASSE DI GESTIONE DEL CUORE */
 .heart {
     position: absolute;
     font-size: 60px;
@@ -115,6 +117,7 @@ a {
     padding: 5px 15px;
 }
 
+/* INFORMAZIONI DEL PRODOTTO */
 .info-price {
     font-size: 20px;
 }
@@ -125,4 +128,57 @@ a {
 
 .price {
     color: red;
+}
+
+/* INIZIO FOOTER */
+.container-footer {
+    width: 100%;
+    background-color: black;
+
+}
+
+.row-footer {
+    width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 30px;
+    display: flex;
+}
+
+.content-footer {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.content-footer span {
+    margin: 10px;
+    color: white;
+}
+
+#boolando {
+    font-size: 40px;
+    margin-bottom: 300px;
+}
+
+.col-footer-50 {
+    width: 50%;
+    display: flex;
+}
+
+.content-footer-social {
+    color: white;
+    font-size: 25px;
+}
+
+.col-social {
+    justify-content: right;
+}
+
+.content-footer-social a {
+    margin-right: 10px;
+}
+
+.icons {
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
