@@ -74,7 +74,34 @@ a {
 }
 
 .content {
-    height: 500px;
-    background-color: orange;
     margin: 20px;
+    position: relative;
+}
+
+.content img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.label {
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+    left: 70px;
+}
+
+.last-green {
+    left: 0;
 }
