@@ -90,7 +90,7 @@ a {
     color: white;
     position: absolute;
     left: 0;
-    bottom: 50px;
+    bottom: 120px;
 }
 
 .red {
@@ -104,4 +104,25 @@ a {
 
 .last-green {
     left: 0;
+}
+
+.heart {
+    position: absolute;
+    font-size: 60px;
+    right: 0px;
+    top: 20px;
+    background-color: white;
+    padding: 5px 15px;
+}
+
+.info-price {
+    font-size: 20px;
+}
+
+.old-price {
+    text-decoration: line-through;
+}
+
+.price {
+    color: red;
 }
