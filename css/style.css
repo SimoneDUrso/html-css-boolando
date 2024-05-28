@@ -84,6 +84,22 @@ a {
     position: relative;
 }
 
+.visible-image {
+    display: block;
+}
+
+.hidden-image {
+    display: none;
+}
+
+.content:hover .visible-image {
+    display: none;
+}
+
+.content:hover .hidden-image {
+    display: block;
+}
+
 /* LABEL PERCENTUALE DI SCONTO E SOSTENIBILITA' */
 .label {
     font-size: 20px;
@@ -115,6 +131,11 @@ a {
     top: 20px;
     background-color: white;
     padding: 5px 15px;
+}
+
+.heart:hover {
+    color: red;
+    cursor: pointer;
 }
 
 /* INFORMAZIONI DEL PRODOTTO */
